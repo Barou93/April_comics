@@ -1,0 +1,58 @@
+*::before,
+*::after,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+/* color : #ff7900*/
+
+@font-face {
+  font-family: "HelvNeue75";
+  src: url("/fonts/WOFF2/HelvNeue75_W1G.woff2") format("woff2"),
+    url("/fonts/WOFF/HelvNeue75_W1G.woff") format("woff");
+}
+
+body {
+  background-color: #000;
+  font-family: "HelvNeue75";
+}
+
+.headline {
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  margin: 25px 35px;
+}
+
+.headline h1 {
+  color: #ff7900;
+  font-size: 60px;
+}
+
+.headline img {
+  height: 150px;
+  width: 150px;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin: 25px 35px;
+}
+
+.text-content p {
+  color: #fff;
+  font-size: 60px;
+  margin: 10px;
+}
+span {
+  color: #ff7900;
+}
+
+footer img {
+  height: 350px;
+  width: 450px;
+}
