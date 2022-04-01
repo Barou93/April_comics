@@ -52,7 +52,33 @@ span {
   color: #ff7900;
 }
 
+footer {
+  margin: 25px 35px;
+}
+
 footer img {
-  height: 350px;
+  height: auto;
   width: 450px;
+}
+
+@media only screen and (max-width: 480px) {
+  .headline h1 {
+    font-size: 45px;
+  }
+
+  .headline img {
+    height: 120px;
+    width: 120px;
+  }
+
+  .text-content {
+    text-align: left;
+  }
+  .text-content p {
+    font-size: 40px;
+  }
+  footer img {
+    width: 285px;
+    height: auto;
+  }
 }
